@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/btn_sub"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/goods_sub_btn"
+        android:padding="7dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="1" />
+    <ImageView
+        android:id="@+id/btn_add"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/goods_add_btn"
+        android:padding="7dp"
+        android:textSize="20sp" />
+</LinearLayout>

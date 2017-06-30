@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    >
+
+    <CheckBox
+        android:id="@+id/items_radioButton"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/items_img"
+        android:background="@mipmap/ic_launcher"
+        android:layout_margin="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/items_name"
+            android:text="asd"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.example.mylistview.NumberAddSubView
+            android:id="@+id/zujian"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/items_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.example.mylistview.NumberAddSubView>
+
+        <TextView
+            android:id="@+id/jiage"
+            android:layout_marginTop="10dp"
+            android:text="asdas"
+            android:layout_alignBottom="@id/zujian"
+            android:layout_below="@+id/items_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
